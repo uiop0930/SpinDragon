@@ -129,7 +129,7 @@ public class GameoverActivity extends AppCompatActivity {
                         Toast.makeText(this, uri.toString(), Toast.LENGTH_SHORT).show();    //uri.toString()을 하면 경로가 쭉 다 나온다.
                         G.championImg= uri.toString();
                         iv.setImageURI(uri);      //오류나기 좋은코드..!
-                        //이 친구는 주소로 오는것
+                        // 이 친구는 주소로 오는것
                     }else{
                         Toast.makeText(this, "null", Toast.LENGTH_SHORT).show();       //else면 null
                         Bundle bundle= data.getExtras();
